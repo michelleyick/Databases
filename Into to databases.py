@@ -1,6 +1,6 @@
 #Michelle Yick
 #20/04/2015
-#Intro to databases - Python school
+#Intro to databases - Python school - Task 1
 
 import sqlite3
 
