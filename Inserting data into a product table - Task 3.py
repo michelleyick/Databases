@@ -12,5 +12,8 @@ def insert_data(values):
         db.commit()
 
 if __name__=="__main__":
-    product=("Espresso",1.5)
+    Name=input("Product name:")
+    Price=float(input("Price:"))
+    product=("{0}","{1}".format(Name,Price))
     insert_data(product)
+
