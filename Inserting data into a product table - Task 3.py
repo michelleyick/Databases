@@ -15,5 +15,5 @@ if __name__=="__main__":
     product=("Espresso",1.5)
     insert_data(product)
 
-insert_data()
+insert_data(values)
 
