@@ -9,11 +9,8 @@ def insert_data(values):
         cursor=db.cursor()
         sql="insert into Product (Name,Price) values (?,?)"
         cursor.execute(sql,values)
-        db.commit
+        db.commit()
 
 if __name__=="__main__":
     product=("Espresso",1.5)
     insert_data(product)
-
-insert_data(values)
-
