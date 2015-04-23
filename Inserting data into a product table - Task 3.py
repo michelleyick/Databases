@@ -14,6 +14,6 @@ def insert_data(values):
 if __name__=="__main__":
     Name=input("Product name:")
     Price=float(input("Price:"))
-    product=("{0}","{1}".format(Name,Price))
+    product=(Name,Price)
     insert_data(product)
 
