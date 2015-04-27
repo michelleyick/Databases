@@ -19,8 +19,12 @@ def select_product(id):
         return product
 
 if __name__=="__main__":
-    products=select_all_products()
-    print(products)
-    product=select_product(2)
-    print(product)
+    want_all=input("Do you want to print out all the products? (y/n) ")
+    if want_all=="y":
+        products=select_all_products()
+        print(products)
+    else:
+        product_wanted=int(input("Enter the ProductID of the product you want: (1,2,3,4,5) "))
+        product=select_product(product_wanted)
+        print(product)
 
