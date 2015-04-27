@@ -1,6 +1,6 @@
 #Michelle Yick
 #27/04/2015
-#Searching and sorting data - Task 6 - Python school
+#Searching for data - Task 6 - Python school
 
 import sqlite3
 
