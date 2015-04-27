@@ -12,5 +12,5 @@ def delete_product(data):
         db.commit()
 
 if __name__=="__main__":
-    data=("Black Tea",)
+    data=("Americano",)
     delete_product(data)
